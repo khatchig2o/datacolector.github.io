@@ -2,7 +2,7 @@ const draw = {};
 
 draw.path = (ctx, path, color = "black") => {
     ctx.strokeStyle = color;
-    ctx.lineWidth = 4;
+    ctx.lineWidth = 3;
     ctx.beginPath();
     ctx.moveTo(...path[0]);
     // console.log(path);
